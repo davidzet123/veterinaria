@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VETERINARIA PATITAS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div id="botones">
+        <a href="https://www.facebook.com/" class="boton" target="_blank">
+            <img src="imagenes/botones/lupa.jpg" alt="facebook">
+        </a>
+        <a href="https://www.instagram.com/" class="boton" target="_blank">
+            <img src="imagenes/botones/carrito.jpg" alt="instagram">
+        </a>
+        <a href="https://www.linkedin.com/" class="boton" target="_blank">
+            <img src="imagenes/botones/boton.jpg" alt="linkedin">
+        </a> 
+    </div>
+    <div id="principal">
+        
+        <div id="logo">
+            <div id="imglogo">
+                <img src="imagenes/logo.jpeg" alt="logo" >
+            </div>
+            <div id="pestanas">
+                <a href="">INICIO</a>
+                <a href="">VACUNAS</a>
+                <a href="">HORARIOS</a>
+                <a href="">SERVICIOS</a>
+                <a href="">CITAS</a>
+            </div>
+            <br>
+        </div>
+
+        <div class="container__slider">
+
+            <div class="container">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+    
+                <div class="cards">
+                    <label class="card" for="item-1" id="selector-1">
+                        <img class="image" src="imagenes/carrusel/img1.jpg">
+                    </label>
+                    <label class="card" for="item-2" id="selector-2">
+                        <img class="image" src="imagenes/carrusel/img2.jpg">
+                    </label>
+                    <label class="card" for="item-3" id="selector-3">
+                        <img class="image" src="imagenes/carrusel/img3.jpg">
+                    </label>
+    
+                </div>
+            </div>
+    
+        </div>
+        <div id="inicio">
+            <h1 class="letra">BIENVENIDO A LA VETERINARIA PATITAS</h1>
+            <P>¡Los animales también necesitan cuidados médicos! 
+                En concreto, la medicina veterinaria 
+                es la encargada de estudiar las enfermedades 
+                en animales y buscar los tratamientos adecuados. </P>
+        </div>
+        <div>
+            <section>
+                <div>
+                    <img src="imagenes/atencion/atencion.jpg" alt="">
+                    <p>atencion a los animalitos de 9:00 am a 7:00 pm</p>
+                </div>
+                <div>
+                    <img src="imagenes/atencion/accesorios.jpeg" alt="">
+                    <p>accesorios para susmascotas </p>
+                </div>
+                <div>
+                    <img src="imagenes/atencion/ambiente.jpg" alt="">
+                    <p>ambientes agradables para sus mascotas y su buena atencion</p>
+                </div>
+                <div>
+                    <img src="imagenes/atencion/control.jpeg" alt="">
+                    <p> control de sus vacunas para todas sus mascotas </p>
+                </div>
+            </section>
+        </div>
+        <div id="par">
+            <div class="par1">
+                <img src="imagenes/llamada/telefono.png" alt="">
+            </div>
+            <div class="contactos">
+                <h2 class="letra">NUMEROS PARA CONSULTAS</h2>
+                <p> cel... 76581922</p>
+                <p> cel... 76190264</p>
+            </div>
+            <div class="par1">
+                <img src="imagenes/llamada/atencion.jpg" alt="">
+            </div>
+            <div class="contactos">
+                <h2 class="letra">DIAS DE ATENCION</h2>
+                <p> lunes a viernes de 9:00 a 8:00pm</p>
+                <p> fines de semana de 9:00 a 13:00pm</p>
+            </div>
+        </div>
+        <div id="barra">
+            <div>
+                <ul>ACCESORIOS</ul>
+                <li>correas</li>
+                <li>comederos</li>
+                <li>bebederos</li>
+                <li>toallitas</li>
+                <li>peine de pelaje</li>
+                <li>entre otros...</li>
+            </div>
+            <div>
+               <ul>VACUNAS</ul>
+               <li>vacuna contra el distemper</li>
+               <li>vacuna contra parvovirus</li>
+               <li>vacuna contra la rabia</li>
+               <li>vacuna contra leucemia</li>
+                
+            </div>
+            <div>
+                <ul>ALIMENTOS</ul>
+                <li>croquetas</li>
+                <li>vitaminas</li>
+                <li>bebidas</li>
+            </div>
+            <div id="registros">
+
+                <h2> REGISTRO DE DATOS</h2> 
+               <input type="text" placeholder="Usuario" >
+               <p class="input_error">el usuario tiene que ser de 4 a 16 digitos y solo debe tener numeros y letras</p>
+               <p>
+                <input type="text" placeholder="Nombre" >
+                <p class="input_error">el nombre tiene que ser de 4 a 16 letras y solo debe tener letras </p>
+                <input type="password" placeholder="Contraseña" >
+                <p class="input_error">la contraseña debe ser de 4 a 12 digitos</p>
+               </p>
+               <input type="text" placeholder="telf. ref." >
+               <p class="input_error">el telf. debe ser de 7 a 10 digitos</p>
+               <p>
+                <input type="checkbox" class="checkbox1">
+                acepto los terminos y condiciones
+               </p>
+               
+                <p id="mensaje_error"><b>error: </b>por favor rellena el formulario correctamente</p>
+               
+               <div id="btn_enviar">
+                <button type="submit">Enviar</button>
+                <p id="mensaje_exito">formulario enviado exitosamente</p>
+               </div>
+            </div>
+        </div>
+        <div id="pie">
+            <div id="redes">
+                <a href="https://www.facebook.com/" class="face" target="_blank">
+                    <img src="imagenes/social/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/" class="face" target="_blank">
+                    <img src="imagenes/social/insta.png" alt="instagram">
+                </a>
+                <a href="https://www.linkedin.com/" class="face" target="_blank">
+                    <img src="imagenes/social/linkedin.png" alt="linkedin">
+                </a> 
+            </div>
+            <div id="texpie">
+                <p>veterinaria patitas al servicio de sus mascotas</p>
+            </div>
+                
+        </div>
+    </div>
+    <script src="formularios.js"></script>
+</body>
+</html>
